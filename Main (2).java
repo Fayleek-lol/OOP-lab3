@@ -5,7 +5,7 @@ public class Main {
         
         if (Matrix.getReadFile())
             Matrix.inputFromFile();
-        else if (Matrix.getReadKea())
+        else 
             Matrix.inputKeyboard();
             
         Matrix.printMatrixA();
